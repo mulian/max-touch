@@ -5,6 +5,20 @@ A Javascript Lib for Touch Events.
 
 
 ##Tutorial
+````html
+<html>
+  <head>
+    <script language='javascript' type='text/javascript' src='/MaxTouch.js'></script>
+    <script language='javascript' type='text/javascript' src='/My.js'></script>
+  </head>
+  <body>
+    <div id='moveDiv' style='width: 100%; height: 100%;'>
+    </div>
+  </body>
+</html>
+````
+
+My.js
 ````js
 var moveDiv = docuement.getElementById('moveDiv');
 
