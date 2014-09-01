@@ -90,3 +90,6 @@ Toggle means: if the first time is a e.g. HorizontalMove it is alway a Horizonta
 
 #Further notes
 Developed by Max Julian Hoffmann
+
+##TODO:
+Rotate
