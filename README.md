@@ -1,12 +1,10 @@
-MaxTouch.JS
-==========
+#MaxTouch.JS
+
 
 A Javascript Lib for Touch Events.
 
 
-Tutorial
-=========
-...
+##Tutorial
 ````js
 var moveDiv = docuement.getElementById('moveDiv');
 
@@ -29,13 +27,11 @@ moveDiv.touchStop = function(event) {
 }
 
 ````
-...
 
-Its possible do use the Methodes:
-=========
+##Its possible do use the Methodes:
 
-CompasMoves
-========
+
+###CompasMoves
 | JS Call | Description                           |
 |---------|---------------------------------------|
 |moveHorizontal: | wenn der Finger von links nach rechts oder anders rum geht.|
@@ -45,6 +41,7 @@ CompasMoves
 |   moveNorth: | wenn der Finger von unten nach oben geht. |
 |   moveSouth: | wenn der Finger von oben nach unten geht. |
 
+####Toggle
 Toggle means: if the first time is a e.g. HorizontalMove it is alway a HorizontalMove. 
 
 | JS Call | Description                           |
@@ -56,8 +53,7 @@ Toggle means: if the first time is a e.g. HorizontalMove it is alway a Horizonta
 |   moveNorthToggle |   |
 |   moveSouthToggle |   |
     
-Edge Moves
-========
+###Edge Moves
 | JS Call | Description                           |
 |---------|---------------------------------------|
 |moveEdgeNorth| |
@@ -65,16 +61,18 @@ Edge Moves
 |moveEdgeSouth | |
 |moveEdgeWest | |
   
-Touches
-========
+###Touches
 | JS Call | Description                           |
 |---------|---------------------------------------|
 |touched | one Touch  |
 | dbltouched | Double Touch |
 | longTouched | Long touch |
   
-End of Every Move
-========
+###End of Every Move
 | JS Call | Description                           |
 |---------|---------------------------------------|
 |touchStop | The Stop Event from evrery Touch Move |
+
+
+#Further notes
+Developed by Max Julian Hoffmann
