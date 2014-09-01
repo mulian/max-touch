@@ -7,6 +7,7 @@ A Javascript Lib for Touch Events.
 Tutorial
 =========
 ...
+````js
 var moveDiv = docuement.getElementById('moveDiv');
 
 touch.addTouch(moveDiv);
@@ -17,6 +18,7 @@ moveDiv.moveHorizontal = function(event) {
   console.log('with x:' + event.x + ' and y: '+ event.y);
   console.log('your different to the Start (touch/click) point is x:'+event.mX+' and y:'+event.mY);
 }
+````
 ...
 
 Its possible do use the Methodes:
@@ -24,33 +26,45 @@ Its possible do use the Methodes:
 
 CompasMoves
 ========
-  *moveHorizontal: wenn der Finger von links nach rechts oder anders rum geht.
-    *moveEast: wenn der Finger von links nach rechts geht.
-    *moveWest: wenn der Finger von rechts nach links geht.
-  *moveVertical: wenn der Finger von unten nach oben oder anders rum geht.
-    *moveNorth: wenn der Finger von unten nach oben geht.
-    *moveSouth: wenn der Finger von oben nach unten geht.
-Toggle means: if the first time is a e.g. HorizontalMove it is alway a HorizontalMove.
-  *moveHorizontalToggle
-    *moveEastToggle
-    *moveWestToggle
-  *moveVerticalToggle
-    *moveNorthToggle
-    *moveSouthToggle
+| JS Call | Description                           |
+|---------|---------------------------------------|
+|moveHorizontal: | wenn der Finger von links nach rechts oder anders rum geht.|
+|   moveEast: | wenn der Finger von links nach rechts geht. |
+|   moveWest: wenn der Finger von rechts nach links geht. |
+|moveVertical: | wenn der Finger von unten nach oben oder anders rum geht. |
+|   moveNorth: | wenn der Finger von unten nach oben geht. |
+|   moveSouth: | wenn der Finger von oben nach unten geht. |
+
+Toggle means: if the first time is a e.g. HorizontalMove it is alway a HorizontalMove. 
+
+| JS Call | Description                           |
+|---------|---------------------------------------|
+|moveHorizontalToggle |   |
+|   moveEastToggle |  |
+|   moveWestToggle |  |
+|moveVerticalToggle |   |
+|   moveNorthToggle |   |
+|   moveSouthToggle |   |
     
 Edge Moves
 ========
-  *moveEdgeNorth
-  *moveEdgeEast
-  *moveEdgeSouth
-  *moveEdgeWest
+| JS Call | Description                           |
+|---------|---------------------------------------|
+|moveEdgeNorth| |
+|moveEdgeEast | |
+|moveEdgeSouth | |
+|moveEdgeWest | |
   
 Touches
 ========
-  *touched
-  *dbltouched
-  *longTouched
+| JS Call | Description                           |
+|---------|---------------------------------------|
+|touched | one Touch  |
+| dbltouched | Double Touch |
+| longTouched | Long touch |
   
 End of Every Move
 ========
-  *touchStop
+| JS Call | Description                           |
+|---------|---------------------------------------|
+|touchStop | The Stop Event from evrery Touch Move |
