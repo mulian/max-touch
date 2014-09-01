@@ -13,11 +13,21 @@ var moveDiv = docuement.getElementById('moveDiv');
 touch.addTouch(moveDiv);
 
 //you could replace moveHorizontal with moveEdgeWest and you only get the Event, if you touch your device from left to right
+var isHorizontalMove = false;
 moveDiv.moveHorizontal = function(event) {
   console.log('you do a Horizontal move!');
   console.log('with x:' + event.x + ' and y: '+ event.y);
   console.log('your different to the Start (touch/click) point is x:'+event.mX+' and y:'+event.mY);
+  
+  isHorizontalMove = true;
 }
+moveDiv.touchStop = function(event) {
+  if(isHorizontalMove) {
+    console.log('You stop the HorizontalMove.');
+    isHorizontalMove = false;
+  }
+}
+
 ````
 ...
 
