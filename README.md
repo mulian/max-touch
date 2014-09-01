@@ -40,7 +40,7 @@ CompasMoves
 |---------|---------------------------------------|
 |moveHorizontal: | wenn der Finger von links nach rechts oder anders rum geht.|
 |   moveEast: | wenn der Finger von links nach rechts geht. |
-|   moveWest: wenn der Finger von rechts nach links geht. |
+|   moveWest: | wenn der Finger von rechts nach links geht. |
 |moveVertical: | wenn der Finger von unten nach oben oder anders rum geht. |
 |   moveNorth: | wenn der Finger von unten nach oben geht. |
 |   moveSouth: | wenn der Finger von oben nach unten geht. |
