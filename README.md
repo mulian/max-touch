@@ -3,6 +3,7 @@
 
 A Javascript Lib for Touch Events.
 
+Test: [blubb](LICENSE)
 
 ##Tutorial
 Download (clone) MaxTouch.js into your work Folder.
